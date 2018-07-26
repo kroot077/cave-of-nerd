@@ -18,3 +18,34 @@ w100 {
     display: flex;
     justify-content: space-evenly;
 }
+
+.main-art {
+    background-image: url(http://unsplash.it/400/200);
+    height: 40vh;
+}
+
+.media-nerd {
+    color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.secondary-art {
+    background-image: url(http://unsplash.it/400/200);
+    height: 20vh;
+}
+
+.g-underline {
+    border-bottom: 2px solid #bebebe;
+    display: inline-block;
+    width: fit-content;
+}
+
+.overline{
+    border-bottom: 2px solid #bebebe;
+    display: inline-block;
+    width: fit-content;
+    order: top;
+}
